@@ -4,3 +4,5 @@
 
 ZEROES = []
 ADD = []
+
+def move_zeros(numbers):
