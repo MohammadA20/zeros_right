@@ -6,3 +6,8 @@ ZEROES = []
 ADD = []
 
 def move_zeros(numbers):
+    for move in range(len(numbers)):
+        if numbers[move] != 0:
+            ADD.append(numbers[move])
+        else:
+            ZEROES.append(numbers[move])
