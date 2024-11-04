@@ -13,3 +13,4 @@ def move_zeros(numbers):
             ZEROES.append(numbers[move])
 
 move_zeros([1, 3, 0, 10, 2, 0, 0, 0, 33, 3, 4])
+print(ADD + ZEROES)
